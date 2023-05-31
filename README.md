@@ -79,6 +79,8 @@ Start an empty Django project and make sure `rest_framework` is installed. Creat
 This request needs to be verified and a proper response needs to be sent back. 
 First connect to the Redis database and get the user data for this user. If the user credit is enough to buy this stock in this quantity return `Accept`, otherwise return `Deny`.
 
+Finally, write **Integration Tests** for your API to make sure it's working correctly.
+
 ## Step 5: Requests Inception!
 
 In this final step we want to consider an especial case based on Step 4. Let's imagine that after receiving each post request from user on `BuyStock` endpoint, we need to call an external API ourselves to verify the state of the user. The problem is that this API call might take long to respond or might even stall. Here, for simplicity, we simulate this API call with this simple function:
