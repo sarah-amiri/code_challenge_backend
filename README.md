@@ -79,7 +79,7 @@ Start an empty Django project and make sure `rest_framework` is installed. Creat
 This request needs to be verified and a proper response needs to be sent back. 
 First connect to the Redis database and get the user data for this user. If the user credit is enough to buy this stock in this quantity return `Accept`, otherwise return `Deny`.
 
-Finally, write **Integration Tests** for your API to make sure it's working correctly.
+Finally, write **Unit Tests** and **Integration Tests** for your API to make sure it's working correctly.
 
 ## Step 5: Requests Inception!
 
