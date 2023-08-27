@@ -1,5 +1,5 @@
 
-# Code Challenge: Python-Djanog Backend
+# Code Challenge: Python-Django Backend
 A sample microservice project with Django, Redis and Kafka to test your familiarities with these tools.
 
 ### Requirements
