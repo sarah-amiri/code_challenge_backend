@@ -18,7 +18,7 @@ Write a price updater service with Python that accomplishes these tasks:
 - Connects to the Redis database
 - For each data row, updates the time and price history of the corresponding stock
 
-> **Note:** Make sure Redis database is running and is accessible on `localhost` on default port `6037`
+> **Note:** Make sure Redis database is running and is accessible on `localhost` on default port `6379`
 
 > **Hint:** The stock price history data in stored in Redis in `key`-`value` format. The key value for Stock1, Stock2 and Stock3 are `stock1`, `stock2` and `stock3` respectively. The value is in json format in which the `time` field is a list of timestamps `hhmmss`. The `price` field is the list of stock prices at respective timestamps.
 
