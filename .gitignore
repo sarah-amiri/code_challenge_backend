@@ -1,3 +1,9 @@
 # vscode
 .vscode/
 redis/data/
+# virtual environments
+.venv
+.env
+# python
+.idea/
+__pycache__/
